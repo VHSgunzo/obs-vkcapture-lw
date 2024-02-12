@@ -1,6 +1,6 @@
 pkgbase=obs-vkcapture-lw
 pkgname=("$pkgbase" "lib32-$pkgbase")
-pkgver=1.4.7
+pkgver=1.4.9
 pkgrel=1
 url='https://github.com/nowrep/obs-vkcapture'
 license=('GPL2')
