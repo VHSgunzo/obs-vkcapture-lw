@@ -1,12 +1,12 @@
 pkgbase=obs-vkcapture-lw
 pkgname=("$pkgbase" "lib32-$pkgbase")
-pkgver=1.4.9
+pkgver=1.5.0
 pkgrel=1
 url='https://github.com/nowrep/obs-vkcapture'
 license=('GPL2')
 arch=('x86_64')
 depends=('vulkan-icd-loader' 'libgl')
-optdepends=('obs-studio>=27')
+optdepends=('obs-studio>=30')
 makedepends=(
     'git' 'gcc' 'cmake' 'vulkan-headers' 'lib32-gcc-libs'
     'lib32-vulkan-icd-loader' 'lib32-libgl' 'obs-studio'
